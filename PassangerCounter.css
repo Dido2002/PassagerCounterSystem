@@ -1,0 +1,60 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    background-color:cornflowerblue;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    width:100%;
+}
+.passagerContainer{
+    background-color: orange;
+    height:28rem;
+    width:36rem;
+    text-align:center;
+    box-shadow:6px 6px 6px 10px rgba(0, 0, 0, 0.2);
+    border-radius:10px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+button{
+    border:none;
+    padding:8px 34px;
+    border-radius: 10px;
+    font-size:1.2rem;
+    cursor:pointer;
+    margin-top:1rem;
+    font-weight:600;
+    color:white; 
+    transition:0.3s ease-in-out;
+}
+#add{
+    background-color:crimson;
+
+}
+#add:hover{
+    transform:translateY(-5px)
+}
+#save{
+    background-color:darkgreen;
+}
+#save:hover{
+    transform:translateY(-5px)
+}
+#results{
+    font-size:1.2rem;
+}
+#clear{
+    background-color:darkslateblue;
+}
+#clear:hover{
+    transform:translateY(-5px)
+}
+h1,h2{
+    font-weight:700;
+}
